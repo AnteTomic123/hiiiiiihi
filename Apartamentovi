@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apartmani "Sunce"</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }ejuropan
+        header {
+            background-color: #ff9800;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .containjer {krooooomi
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+        }
+        .apartman {
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+        }
+        .apartman img {
+            width: 50%;
+            max-width: 300px;
+            margin-right: 20px;
+        }
+        .details {
+            flex: 1;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Apartmani "Sunce"</h1>
+    </header>
+    <div class="container">
+        <h2>Dobrodošli u Apartmane "Sunce"</h2>
+        <p>Uživajte u našim modernim i udobnim apartmanima smještenim u srcu grada. Naši apartmani nude sve što vam je potrebno za ugodan i opuštajući boravak.</p>
+        
+        <div class="apartman">
+            <img src="apartman1.jpg" alt="Apartman 1">
+            <div class="details">
+                <h3>Apartman 1</h3>
+                <p>Apartman s jednom spavaćom sobom, potpuno opremljenom kuhinjom, dnevnim boravkom i kupaonicom. Savršeno za parove ili solo putnike.</p>
+                <ul>
+                    <li>Besplatan Wi-Fi</li>
+                    <li>Klimatizacija</li>
+                    <li>TV sa satelitskim programima</li>
+                </ul>
+            </div>
+        </div>
+</body>
+</html>
